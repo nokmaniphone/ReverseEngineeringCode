@@ -1,7 +1,11 @@
 Config Folder
-  The purpose of the config folder is to store all the information we need to connect to the mysql database.
+  is an XML file whose goal it is to contain any variable configuration of your application. It is a central place to put: Connection strings to databases. Connection details to external services.
 
-  The isAuthenticate.js file is there to ensure that routes only run if the user is logged in, else if they are not, it redirects them back to the homepage
+  middleware
+    in the context of distributed applications is software that provides services beyond those provided by the operating system to enable the various components of a distributed system to communicate and manage data. Middleware supports and simplifies complex distributed applications.
+
+    The isAuthenticate.js 
+    file is there to ensure that routes only run if the user is logged in, else if they are not, it redirects them back to the homepage
 
   The config.json file houses all the login information we need to connect to three different databases specified for different stages of the app (development, test, and production). 
 
